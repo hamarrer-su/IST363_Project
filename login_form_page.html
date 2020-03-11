@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="login-form-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo:200&display=swap" rel="stylesheet" rel="stylesheet">
+    <title>Login Page</title>
 </head>
 <body>
-    
+    <header class="site-header">
+        <div class="navbar">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a href="home_page.html" class="nav-button">Home</a>
+                <a href="" class="nav-button">Dashboard</a>
+                <a href="" class="nav-button">Caloric Intake</a>
+                <a href="" class="nav-button">Daily Activity</a>
+                <a href="" class="nav-button">Planner</a>
+                <a href="" class="nav-button">Profile</a>
+            </div>
+        </div>
+        <h1>Fit Companion</h1>
+    </header>
+    <form class="login-form">
+        <div class="login-form-wrapper">
+            <h2>Login</h2>
+            <input id="id-email" type="email" name="email" placeholder="Email" required>
+            <input id="id-password" type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <div class="bg-img"></div>
 </body>
 </html>
