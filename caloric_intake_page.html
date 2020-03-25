@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="metrics_styles.css">
+    <link rel="stylesheet" href="metrics_cal_styles.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,700,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60a6340619.js" crossorigin="anonymous"></script>
 
@@ -19,7 +19,7 @@
                     <a href="home_page.html" class="nav-button">Home</a>
                     <a href="dashboard_page.html" class="nav-button">Dashboard</a>
                     <a href="caloric_intake_page.html" class="nav-button">Caloric Intake</a>
-                    <a href="" class="nav-button">Daily Activity</a>
+                    <a href="daily_activity_page.html" class="nav-button">Daily Activity</a>
                     <a href="" class="nav-button">Planner</a>
                     <a href="" class="nav-button">Profile</a>
                 </div>
@@ -31,79 +31,83 @@
     <div class="add-module">
         <a href ="" class="plus fas fa-plus-circle"></a>
     </div>
-    <div class="daily-avg-module">
-        <div class="mod-button button">Daily Average</div>
-        <img id="cal-ring" src="cal-counter-visual.png" alt="blue ring">
-        <div class="break"></div>
-        <p class="current-progress">You are above/below/at your goal caloric intake!</p>
-        <div class="cal">2000cal</div>
-    </div>
 
-        <h3 class="marg ">Recent Activity</h3>
-        <div class="recent-activity-wrapperA">
-            <div class="recent-activity">
-                <div class="item-mod">
-                    <div class="title">Item</div>
-                    <div class="item">Banana</div>
+    <div class="caloric-intake-container">
+        <div class="daily-avg-module">
+            <div class="mod-button">Daily Average</div>
+            <img id="cal-ring" src="cal-counter-visual.png" alt="blue ring">
+            <div class="break"></div>
+            <p class="current-progress">You are above/below/at your goal caloric intake!</p>
+            <div class="cal">2000cal</div>
+        </div>
+        <div class ="recent-activity-module">
+            <h3 class="marg">Recent Activity</h3>
+            <div class="recent-activity-wrapperA">
+                <div class="recent-activity">
+                    <div class="item-mod">
+                        <div class="title">Item</div>
+                        <div class="item">Banana</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Qty</div>
+                        <div class="item">3</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Total Calories</div>
+                        <div class="item cal">215 cal</div>
+                    </div>
                 </div>
-                <div class="item-mod">
-                    <div class="title">Qty</div>
-                    <div class="item">3</div>
+            </div>
+            <div class="recent-activity-wrapperB">
+                <div class="recent-activity">
+                    <div class="item-mod">
+                        <div class="title">Item</div>
+                        <div class="item">Banana</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Qty</div>
+                        <div class="item">3</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Total Calories</div>
+                        <div class="item cal">215 cal</div>
+                    </div>
                 </div>
-                <div class="item-mod">
-                    <div class="title">Total Calories</div>
-                    <div class="item cal">215 cal</div>
+            </div>
+            <div class="recent-activity-wrapperA">
+                <div class="recent-activity">
+                    <div class="item-mod">
+                        <div class="title">Item</div>
+                        <div class="item">Banana</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Qty</div>
+                        <div class="item">3</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Total Calories</div>
+                        <div class="item cal">215 cal</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-activity-wrapperB">
+                <div class="recent-activity">
+                    <div class="item-mod">
+                        <div class="title">Item</div>
+                        <div class="item">Banana</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Qty</div>
+                        <div class="item">3</div>
+                    </div>
+                    <div class="item-mod">
+                        <div class="title">Total Calories</div>
+                        <div class="item cal">215 cal</div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="recent-activity-wrapperB">
-            <div class="recent-activity">
-                <div class="item-mod">
-                    <div class="title">Item</div>
-                    <div class="item">Banana</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Qty</div>
-                    <div class="item">3</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Total Calories</div>
-                    <div class="item cal">215 cal</div>
-                </div>
-            </div>
-        </div>
-        <div class="recent-activity-wrapperA">
-            <div class="recent-activity">
-                <div class="item-mod">
-                    <div class="title">Item</div>
-                    <div class="item">Banana</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Qty</div>
-                    <div class="item">3</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Total Calories</div>
-                    <div class="item cal">215 cal</div>
-                </div>
-            </div>
-        </div>
-        <div class="recent-activity-wrapperB">
-            <div class="recent-activity">
-                <div class="item-mod">
-                    <div class="title">Item</div>
-                    <div class="item">Banana</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Qty</div>
-                    <div class="item">3</div>
-                </div>
-                <div class="item-mod">
-                    <div class="title">Total Calories</div>
-                    <div class="item cal">215 cal</div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 </body>
 </html>

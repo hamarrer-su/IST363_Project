@@ -26,22 +26,6 @@ body *{
     border-color: #46BBD6;
 }
 
-.mod-button{
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
-    letter-spacing:0px;
-    text-decoration: none;
-    background-color: #00A5CB;
-    padding:8px;
-    color: white;
-    border-radius: 5px;
-    margin: 10px;
-    box-shadow: 3px 3px 3px rgba(72, 72, 72, .3);
-    height: 35px;
-    width:30%;
-}
-
 h1{
     color: #00A5CB;
     text-align: center;
@@ -86,6 +70,7 @@ h2,h3{
         text-decoration: none;
         color: white;
         font-size: 20px;
+        font-weight: 100;
         transition: transform .3s
     }
 
@@ -106,8 +91,24 @@ h2,h3{
         justify-content: center;
     }
 
+    .mod-button{
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        letter-spacing:0px;
+        text-decoration: none;
+        background-color: #00A5CB;
+        padding:8px;
+        color: white;
+        border-radius: 5px;
+        margin: 10px;
+        box-shadow: 3px 3px 3px rgba(72, 72, 72, .3);
+        height: auto;;
+        width:30%;
+    }
+
     .daily-avg-module{
-        height: 250px;
+        height:auto;
         padding:10px;
         display:flex;
         margin-top: 10px;
@@ -118,11 +119,13 @@ h2,h3{
     }
 
     .current-progress{
-        width:30%
+        width:30%;
+        color: #00A5CB;
     }
 
-    #cal-ring{
+    #graph-visi{
        width: 100px;
+       margin-top: 20px;
     }
 
     .break{
@@ -137,26 +140,26 @@ h2,h3{
         margin: 20px;
     }
 
-    .recent-activity{
+    .daily-activity{
         display: flex;
         justify-content: space-between;
         font-weight: bold;
         letter-spacing: 0;
     }
 
-    .recent-activity-wrapperA{
+    .daily-activity-wrapperA{
         background-color: #B1E2ED;
         padding:10px;
         color:white;
     }
 
-    .recent-activity-wrapperB{
+    .daily-activity-wrapperB{
         background-color:#F1F9FF; 
         padding:10px;
         color:#00A5CB;
     }
 
-    .cal{
+    .hr{
         color:#7F7F7F;
         font-weight: bold;
     }

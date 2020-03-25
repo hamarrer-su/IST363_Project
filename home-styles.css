@@ -6,10 +6,16 @@
 
 
 @media screen and (max-width: 991px) {
+
+    *{
+        font-weight: 100;
+    }
+
     html{
         padding:0;
         margin:0;
     }
+
     body{
         margin:0;
         padding: 0;
@@ -137,6 +143,7 @@
     *{
         font-family: 'Cairo', sans-serif;
         letter-spacing: 1.5px;
+        font-weight: 200;
     }
 
     html{
@@ -237,6 +244,7 @@
         text-decoration: none;
         color: white;
         font-size: 18px;
+        font-weight: 100;
         transition: font-size .3s ease-in; 
     }
 
