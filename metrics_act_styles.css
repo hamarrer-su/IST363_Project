@@ -168,3 +168,137 @@ h2,h3{
         text-align: center;
     }
 }
+
+@media screen and (min-width: 992px){
+
+    .navbar{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100px;
+        background-color: #46BBD6;
+    }
+
+    .nav-button{
+        padding: 40px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 100;
+        transition: font-size .3s ease-in; 
+    }
+
+    .nav-button:hover{
+        font-size: 20px;
+    }
+
+    label{
+        display: none;
+    }
+
+    #toggle{
+        display:none;
+    }
+
+    .caloric-intake-container{
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .page-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mod-button{
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bold;
+        letter-spacing:0px;
+        text-decoration: none;
+        background-color: #00A5CB;
+        padding:8px;
+        color: white;
+        border-radius: 5px;
+        margin: 10px;
+        box-shadow: 3px 3px 3px rgba(72, 72, 72, .3);
+        height: auto;;
+        width:30%;
+    }
+
+    .daily-avg-module{
+        height:auto;
+        padding:10px;
+        display:flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: row wrap;
+        background-color: #F1F9FF;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .current-progress{
+        width:30%;
+        color: #00A5CB;
+    }
+
+    #cal-ring{
+       width: 100px;
+    }
+
+    .break{
+        width:100%;
+    }
+
+    .title{
+        color: #00A5CB;
+    }
+
+    .marg{
+        margin:0;
+        background-color: #F1F9FF;
+        padding:20px;
+        height:80px;
+
+    }
+
+    .daily-activity-module{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .daily-activity{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+        font-weight: bold;
+        letter-spacing: 0;
+        width: 300px;
+    }
+
+    .daily-activity-wrapperA{
+        background-color: #B1E2ED;
+        padding:10px;
+        color:white;
+    }
+
+    .daily-activity-wrapperB{
+        background-color:#F1F9FF; 
+        padding:10px;
+        color:#00A5CB;
+    }
+
+    .hr{
+        color:#7F7F7F;
+        font-weight: bold;
+    }
+
+    .item{
+        text-align: center;
+    }
+
+}

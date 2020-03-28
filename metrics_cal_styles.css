@@ -170,6 +170,10 @@ h2,h3{
 
 @media screen and (min-width: 992px){
 
+    h1{
+        margin-bottom: 150px;;
+    }
+
     .navbar{
         display:flex;
         justify-content: center;
@@ -204,8 +208,11 @@ h2,h3{
         justify-content: space-evenly;
     }
 
-     .plus.fas.fa-plus-circle{
-        display:none;
+    .page-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
     }
 
     .mod-button{
@@ -233,7 +240,8 @@ h2,h3{
         align-items: center;
         flex-flow: row wrap;
         background-color: #F1F9FF;
-        width: 30%
+        width: 30%;
+        height: auto;
     }
 
     .current-progress{
@@ -254,13 +262,16 @@ h2,h3{
     }
 
     .marg{
-        margin: 20px;
+        margin:0;
+        background-color: #F1F9FF;
+        padding:20px;
+        height:80px;
+
     }
 
     .recent-activity-module{
         display:flex;
         flex-direction: column;
-        padding: 50px;
     }
 
     .recent-activity{
